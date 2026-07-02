@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREATEX 2026 – Salón de la Industria Textil</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Inter:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesCreatex.css">
+</head>
+
+<body>
+
+    <!-- ═══════════════════════════════════════════
+     NAVIGATION
+════════════════════════════════════════════ -->
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+        <a href="#hero" class="nav-logo">CREATE<span>X</span> <span style="font-size:.7em;opacity:.6;">2026</span></a>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#about"><span class="lang-es-i">Qué es</span><span class="lang-en-i">About</span></a></li>
+            <li><a href="#components"><span class="lang-es-i">Componentes</span><span
+                        class="lang-en-i">Components</span></a></li>
+            <li><a href="#pavilions"><span class="lang-es-i">Pabellones</span><span
+                        class="lang-en-i">Pavilions</span></a></li>
+            <li><a href="#trends"><span class="lang-es-i">Tendencias</span><span class="lang-en-i">Trends</span></a>
+            </li>
+            <li><a href="#gallery"><span class="lang-es-i">Galería</span><span class="lang-en-i">Gallery</span></a></li>
+            <li><a href="#glossary">Glossary</a></li>
+            <li><a href="#conclusion"><span class="lang-es-i">Reflexión</span><span
+                        class="lang-en-i">Reflection</span></a></li>
+        </ul>
+
+        <div class="nav-controls">
+            <div class="lang-toggle" role="group" aria-label="Language selector">
+                <button class="lang-btn" id="btnBoth" onclick="setLang('both')">ES+EN</button>
+                <button class="lang-btn" id="btnEs" onclick="setLang('es')">ES</button>
+                <button class="lang-btn" id="btnEn" onclick="setLang('en')">EN</button>
+            </div>
+            <button class="hamburger" id="ham" onclick="toggleMenu()" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+
+    <!-- ═══════════════════════════════════════════
+     HERO
+════════════════════════════════════════════ -->
+
+    <!-- ═══════════════════════════════════════════
+         HERO  —  Split: left=title / right=info
+    ════════════════════════════════════════════ -->
+    <section id="hero" aria-label="Hero">
+        <div class="hero-split" aria-hidden="true">
+            <div class="hero-split-l"></div>
+            <div class="hero-split-r"></div>
+        </div>
+        <div class="hero-watermark" aria-hidden="true">2026</div>
+
+        <div class="hero-content">
+
+            <!-- LEFT — navy background — title block -->
+            <div class="hero-left">
+                <p class="hero-eyebrow">
+                    <span class="lang-es">Salón de la Industria Textil para la Confección</span>
+                    <span class="lang-en">Textile Industry Trade Fair for Garment Manufacturing</span>
+                </p>
+                <div class="hero-rule"></div>
+                <h1 class="hero-title">CREATEX<br><span class="italic">2026</span></h1>
+            </div>
+
+            <!-- RIGHT — crimson-dark background — subtitle + pills -->
+            <div class="hero-right">
+                <p class="hero-subtitle">
+                    <span class="lang-es">La plataforma de relacionamiento y generación de oportunidades comerciales
+                        para la industria textil y de confección de Colombia y la región.</span>
+                    <span class="lang-en">The platform for networking and commercial opportunity generation for the
+                        textile and garment industry of Colombia and the region.</span>
+                </p>
+
+                <div class="hero-pills">
+                    <div class="hero-pill">
+                        <strong>12–14 Mayo / May</strong>
+                        <small class="lang-es">Fecha del evento</small>
+                        <small class="lang-en">Event dates</small>
+                    </div>
+                    <div class="hero-pill">
+                        <strong>Corferias, Bogotá</strong>
+                        <small>Colombia</small>
+                    </div>
+                    <div class="hero-pill">
+                        <strong>8<span style="font-size:.75em;">ª</span> Edición</strong>
+                        <small class="lang-es">Del evento</small>
+                        <small class="lang-en">8th Edition</small>
+                    </div>
+                    <div class="hero-pill">
+                        <strong>6 Componentes</strong>
+                        <small class="lang-es">Estructura del salón</small>
+                        <small class="lang-en">Fair components</small>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+     ABOUT  ¿Qué es CREATEX?
+════════════════════════════════════════════ -->
+    <section id="about" class="section" aria-labelledby="about-h">
+        <div class="section-inner">
+            <p class="eyebrow">
+                <span class="lang-es">Sobre el evento</span>
+                <span class="lang-en">About the event</span>
+            </p>
+            <h2 class="section-h" id="about-h">
+                <span class="lang-es">¿Qué es CREATEX?</span>
+                <span class="lang-en">What is CREATEX?</span>
+            </h2>
+            <div class="rule"></div>
+
+            <div class="about-grid">
+                <!-- Spanish -->
+                <div class="about-block reveal">
+                    <div class="about-flag">🇨🇴 Español</div>
+                    <p class="about-pull">"El encuentro del ecosistema moda nacional e internacional."</p>
+                    <p class="about-body">CREATEX es la plataforma de relacionamiento, generación de oportunidades
+                        comerciales y acceso a nuevos mercados para empresarios nacionales de la cadena de proveeduría,
+                        insumos, textiles, maquinaria, paquete completo mayorista y servicios transversales, con toda la
+                        oferta de bienes y servicios para confeccionistas, fabricantes, importadores y
+                        comercializadores.</p>
+                    <p class="about-body">Organizado por la Cámara Colombiana de la Confección y Afines (CCCyA) y
+                        Corferias, el salón conecta oferta y demanda especializada durante tres días de actividad
+                        comercial, académica y de relacionamiento.</p>
+                    <p class="about-body">En su octava edición, CREATEX 2026 reconoce el rol estratégico de los
+                        territorios: Bogotá-Cundinamarca concentra el 31,2 % de las empresas del sector textil
+                        colombiano, mientras que Antioquia, Valle del Cauca, Santander y Nariño aportan sus
+                        especializaciones únicas.</p>
+                </div>
+                <!-- English -->
+                <div class="about-block reveal">
+                    <div class="about-flag">🇺🇸 English</div>
+                    <p class="about-pull">"The meeting point of the national and international fashion ecosystem."</p>
+                    <p class="about-body">CREATEX is the platform for networking, commercial opportunity generation and
+                        access to new markets for national entrepreneurs across the full supply chain: raw materials,
+                        textiles, machinery, full-package wholesale and cross-cutting services — providing the complete
+                        offering for garment makers, manufacturers, importers and retailers.</p>
+                    <p class="about-body">Organized by the Colombian Chamber of Garment Manufacturing and Related
+                        Industries (CCCyA) and Corferias, the fair connects specialized supply and demand across three
+                        days of commercial, academic and networking activity.</p>
+                    <p class="about-body">In its eighth edition, CREATEX 2026 acknowledges the strategic role of
+                        Colombia's regions: Bogotá-Cundinamarca concentrates 31.2% of Colombian textile companies, while
+                        Antioquia, Valle del Cauca, Santander and Nariño each contribute their unique specializations.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Stats -->
+            <div class="stats-row reveal">
+                <div class="stat">
+                    <div class="stat-n">3</div>
+                    <div class="stat-l lang-es">Días de feria</div>
+                    <div class="stat-l lang-en">Fair days</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-n">6</div>
+                    <div class="stat-l lang-es">Componentes</div>
+                    <div class="stat-l lang-en">Components</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-n">8ª</div>
+                    <div class="stat-l lang-es">Edición</div>
+                    <div class="stat-l lang-en">Edition</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-n">31.2%</div>
+                    <div class="stat-l lang-es">Empresas textiles en Bogotá</div>
+                    <div class="stat-l lang-en">Textile firms in Bogotá</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-n">360°</div>
+                    <div class="stat-l lang-es">Cadena productiva</div>
+                    <div class="stat-l lang-en">Production chain</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-n">∞</div>
+                    <div class="stat-l lang-es">Conexiones posibles</div>
+                    <div class="stat-l lang-en">Connections possible</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════
+     COMPONENTS  Los 6 componentes
+════════════════════════════════════════════ -->
+    <section id="components" class="section" aria-labelledby="comp-h">
+        <div class="section-inner">
+            <p class="eyebrow light">
+                <span class="lang-es">Estructura del evento</span>
+                <span class="lang-en">Event structure</span>
+            </p>
+            <h2 class="section-h light" id="comp-h">
+                <span class="lang-es">Los 6 Componentes</span>
+                <span class="lang-en">The 6 Components</span>
+            </h2>
+            <div class="rule"></div>
+            <p class="lang-es reveal" style="color:rgba(253,240,213,.7);max-width:580px;font-size:.93rem;">Cada
+                componente articula una dimensión diferente de la experiencia CREATEX, respondiendo a las necesidades
+                actuales de la industria.</p>
+            <p class="lang-en reveal" style="color:rgba(253,240,213,.7);max-width:580px;font-size:.93rem;">Each
+                component articulates a different dimension of the CREATEX experience, responding to the current needs
+                of the industry.</p>
+
+            <div class="comp-grid">
+                <div class="comp-card reveal">
+                    <div class="comp-icon">🏭</div>
+                    <div class="comp-num">01</div>
+                    <div class="comp-name lang-es">Muestra Comercial</div>
+                    <div class="comp-name lang-en">Commercial Exhibition</div>
+                    <div class="comp-desc lang-es">Empresas de insumos, textiles, maquinaria, tecnología y producto
+                        terminado. Los visitantes recorren la cadena productiva completa e identifican soluciones
+                        concretas para sus procesos.</div>
+                    <div class="comp-desc lang-en">Companies from inputs, textiles, machinery, technology and finished
+                        goods. Visitors traverse the full production chain and identify concrete solutions for their
+                        processes.</div>
+                </div>
+                <div class="comp-card reveal">
+                    <div class="comp-icon">🎓</div>
+                    <div class="comp-num">02</div>
+                    <div class="comp-name lang-es">Agenda Académica</div>
+                    <div class="comp-name lang-en">Academic Agenda</div>
+                    <div class="comp-desc lang-es">Charlas y análisis sobre sostenibilidad, innovación, tecnología,
+                        consumo responsable, economía circular y desarrollo empresarial para la toma de decisiones del
+                        sector.</div>
+                    <div class="comp-desc lang-en">Talks and analysis on sustainability, innovation, technology,
+                        responsible consumption, circular economy and business development to support industry
+                        decision-making.</div>
+                </div>
+                <div class="comp-card reveal">
+                    <div class="comp-icon">🔬</div>
+                    <div class="comp-num">03</div>
+                    <div class="comp-name lang-es">Talleres Prácticos</div>
+                    <div class="comp-name lang-en">Practical Workshops</div>
+                    <div class="comp-desc lang-es">Espacios de aprendizaje enfocados en procesos, técnicas y
+                        aplicaciones específicas. Conectan el conocimiento técnico con la realidad operativa del sector
+                        confección.</div>
+                    <div class="comp-desc lang-en">Learning spaces focused on specific processes, techniques and
+                        applications, connecting technical knowledge with the operational reality of the garment sector.
+                    </div>
+                </div>
+                <div class="comp-card reveal">
+                    <div class="comp-icon">⚙️</div>
+                    <div class="comp-num">04</div>
+                    <div class="comp-name lang-es">Muestra Dinámica</div>
+                    <div class="comp-name lang-en">Dynamic Exhibition</div>
+                    <div class="comp-desc lang-es">Demostraciones en vivo de maquinaria, insumos y soluciones técnicas
+                        integradas a la producción, aportando eficiencia, calidad y valor agregado a la cadena de
+                        confección.</div>
+                    <div class="comp-desc lang-en">Live demonstrations of machinery, inputs and technical solutions
+                        integrated into production, adding efficiency, quality and added value to the garment chain.
+                    </div>
+                </div>
+                <div class="comp-card reveal">
+                    <div class="comp-icon">🤝</div>
+                    <div class="comp-num">05</div>
+                    <div class="comp-name lang-es">Rueda de Negocios</div>
+                    <div class="comp-name lang-en">Business Matchmaking</div>
+                    <div class="comp-desc lang-es">Eje estratégico para facilitar encuentros efectivos entre empresas,
+                        compradores y aliados potenciales, promoviendo acuerdos comerciales reales y apertura de nuevos
+                        mercados.</div>
+                    <div class="comp-desc lang-en">Strategic axis for facilitating effective meetings between companies,
+                        buyers and potential partners, promoting real commercial agreements and market access.</div>
+                </div>
+                <div class="comp-card reveal">
+                    <div class="comp-icon">👗</div>
+                    <div class="comp-num">06</div>
+                    <div class="comp-name lang-es">Pasarelas</div>
+                    <div class="comp-name lang-en">Fashion Runways</div>
+                    <div class="comp-desc lang-es">La innovación en insumos, textiles y procesos productivos se
+                        transforma en diseño y producto terminado, evidenciando el vínculo entre la cadena productiva y
+                        el mercado final.</div>
+                    <div class="comp-desc lang-en">Innovation in inputs, textiles and productive processes transforms
+                        into design and finished product, demonstrating the link between the production chain and the
+                        end market.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════
+     PAVILIONS
+════════════════════════════════════════════ -->
+    <section id="pavilions" class="section" aria-labelledby="pav-h">
+        <div class="section-inner">
+            <p class="eyebrow">
+                <span class="lang-es">Espacios temáticos</span>
+                <span class="lang-en">Thematic spaces</span>
+            </p>
+            <h2 class="section-h" id="pav-h">
+                <span class="lang-es">Pabellones</span>
+                <span class="lang-en">Pavilions</span>
+            </h2>
+            <div class="rule"></div>
+
+            <div class="pav-grid">
+                <div class="pav-card c1 reveal">
+                    <div class="pav-body">
+                        <div class="pav-tag">Pabellón 01 · Pavilion 01</div>
+                        <div class="pav-name lang-es">Producto Terminado</div>
+                        <div class="pav-name lang-en">Finished Product</div>
+                        <div class="pav-name-alt lang-es">Finished Product</div>
+                        <div class="pav-name-alt lang-en">Producto Terminado</div>
+                        <div class="pav-desc lang-es">Prendas, colecciones y productos finales de la industria de
+                            confección colombiana e internacional.</div>
+                        <div class="pav-desc lang-en">Garments, collections and final products from the Colombian and
+                            international garment industry.</div>
+                    </div>
+                </div>
+                <div class="pav-card c2 reveal">
+                    <div class="pav-body">
+                        <div class="pav-tag">Pabellón 02 · Pavilion 02</div>
+                        <div class="pav-name lang-es">Moda Circular</div>
+                        <div class="pav-name lang-en">Circular Fashion</div>
+                        <div class="pav-name-alt lang-es">Circular Fashion</div>
+                        <div class="pav-name-alt lang-en">Moda Circular</div>
+                        <div class="pav-desc lang-es">Soluciones sostenibles, materiales reciclados, upcycling y
+                            economía circular aplicada al sector textil.</div>
+                        <div class="pav-desc lang-en">Sustainable solutions, recycled materials, upcycling and circular
+                            economy applied to the textile sector.</div>
+                    </div>
+                </div>
+                <div class="pav-card c3 reveal">
+                    <div class="pav-body">
+                        <div class="pav-tag">Pabellón 03 · Pavilion 03</div>
+                        <div class="pav-name lang-es">Maquinaria y Servicios</div>
+                        <div class="pav-name lang-en">Machinery &amp; Services</div>
+                        <div class="pav-name-alt lang-es">Machinery &amp; Services</div>
+                        <div class="pav-name-alt lang-en">Maquinaria y Servicios</div>
+                        <div class="pav-desc lang-es">Tecnología de punta para confección, corte, bordado, planchado y
+                            servicios transversales del sector.</div>
+                        <div class="pav-desc lang-en">Cutting-edge technology for garment making, cutting, embroidery,
+                            pressing and cross-sector services.</div>
+                    </div>
+                </div>
+                <div class="pav-card c4 reveal">
+                    <div class="pav-body">
+                        <div class="pav-tag">Pabellón 04 · Pavilion 04</div>
+                        <div class="pav-name lang-es">Muestra Internacional</div>
+                        <div class="pav-name lang-en">International Show</div>
+                        <div class="pav-name-alt lang-es">International Commercial Show</div>
+                        <div class="pav-name-alt lang-en">Muestra Comercial Internacional</div>
+                        <div class="pav-desc lang-es">Expositores de la región y del mundo que amplían el panorama de
+                            materiales, tecnologías y tendencias globales.</div>
+                        <div class="pav-desc lang-en">Exhibitors from the region and around the world broadening the
+                            landscape of global materials, technologies and trends.</div>
+                    </div>
+                </div>
+                <div class="pav-card c5 reveal">
+                    <div class="pav-body">
+                        <div class="pav-tag">Pabellón 05 · Pavilion 05</div>
+                        <div class="pav-name lang-es">Centro Empresarial</div>
+                        <div class="pav-name lang-en">Business Center</div>
+                        <div class="pav-name-alt lang-es">Business Center</div>
+                        <div class="pav-name-alt lang-en">Centro Empresarial</div>
+                        <div class="pav-desc lang-es">Espacio para rueda de negocios, alianzas estratégicas y encuentros
+                            entre empresarios, compradores y socios potenciales.</div>
+                        <div class="pav-desc lang-en">Space for business matchmaking, strategic alliances and meetings
+                            between entrepreneurs, buyers and potential partners.</div>
+                    </div>
+                </div>
+                <div class="pav-card c6 reveal">
+                    <div class="pav-body">
+                        <div class="pav-tag">Pabellón 06 · Pavilion 06</div>
+                        <div class="pav-name lang-es">Insumos y Proveeduría</div>
+                        <div class="pav-name lang-en">Inputs &amp; Supply</div>
+                        <div class="pav-name-alt lang-es">Inputs &amp; Supply</div>
+                        <div class="pav-name-alt lang-en">Insumos y Proveeduría</div>
+                        <div class="pav-desc lang-es">Hilos, telas, avíos, botones, cierres y todos los insumos
+                            necesarios para la cadena de confección nacional.</div>
+                        <div class="pav-desc lang-en">Threads, fabrics, trimmings, buttons, zippers and all inputs
+                            needed for the national garment production chain.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════
+     TRENDS
+════════════════════════════════════════════ -->
+    <section id="trends" class="section" aria-labelledby="trend-h">
+        <div class="section-inner">
+            <p class="eyebrow light">
+                <span class="lang-es">Industria textil 2026</span>
+                <span class="lang-en">Textile industry 2026</span>
+            </p>
+            <h2 class="section-h light" id="trend-h">
+                <span class="lang-es">Tendencias Clave</span>
+                <span class="lang-en">Key Trends</span>
+            </h2>
+            <div class="rule"></div>
+
+            <div class="trend-list">
+
+                <div class="trend-item reveal">
+                    <div class="trend-label">Textiles Sostenibles<br><span
+                            style="font-size:.75rem;font-weight:400;font-style:italic;color:rgba(102,155,188,.65);">Sustainable
+                            Textiles</span></div>
+                    <div>
+                        <div class="trend-flag lang-es">ES</div>
+                        <div class="trend-body lang-es">El uso de fibras naturales, orgánicas y recicladas redefine los
+                            estándares de producción. Los textiles sostenibles reducen la huella ambiental y responden a
+                            la demanda del consumidor consciente.</div>
+                    </div>
+                    <div>
+                        <div class="trend-flag lang-en">EN</div>
+                        <div class="trend-body lang-en">The use of natural, organic and recycled fibers is redefining
+                            production standards. Sustainable textiles reduce environmental footprint and respond to
+                            growing demand from conscious consumers worldwide.</div>
+                    </div>
+                </div>
+
+                <div class="trend-item reveal">
+                    <div class="trend-label">Textiles Inteligentes<br><span
+                            style="font-size:.75rem;font-weight:400;font-style:italic;color:rgba(102,155,188,.65);">Smart
+                            Textiles</span></div>
+                    <div>
+                        <div class="trend-flag lang-es">ES</div>
+                        <div class="trend-body lang-es">Telas con propiedades funcionales embebidas —termorregulación,
+                            conductividad, sensores biométricos— abren nuevos mercados en salud, deporte y protección
+                            laboral.</div>
+                    </div>
+                    <div>
+                        <div class="trend-flag lang-en">EN</div>
+                        <div class="trend-body lang-en">Fabrics with embedded functional properties — thermoregulation,
+                            conductivity, biometric sensors — open new markets in healthcare, sport and occupational
+                            safety with significant growth potential.</div>
+                    </div>
+                </div>
+
+                <div class="trend-item reveal">
+                    <div class="trend-label">Digitalización Textil<br><span
+                            style="font-size:.75rem;font-weight:400;font-style:italic;color:rgba(102,155,188,.65);">Textile
+                            Digitalization</span></div>
+                    <div>
+                        <div class="trend-flag lang-es">ES</div>
+                        <div class="trend-body lang-es">CAD/CAM, impresión digital sobre tela y sistemas integrados de
+                            gestión de producción transforman la eficiencia y la personalización en la cadena
+                            confeccionista colombiana.</div>
+                    </div>
+                    <div>
+                        <div class="trend-flag lang-en">EN</div>
+                        <div class="trend-body lang-en">CAD/CAM, digital fabric printing and integrated production
+                            management systems are transforming efficiency and customization across the Colombian
+                            garment supply chain.</div>
+                    </div>
+                </div>
+
+                <div class="trend-item reveal">
+                    <div class="trend-label">Moda Circular<br><span
+                            style="font-size:.75rem;font-weight:400;font-style:italic;color:rgba(102,155,188,.65);">Circular
+                            Fashion</span></div>
+                    <div>
+                        <div class="trend-flag lang-es">ES</div>
+                        <div class="trend-body lang-es">Diseño para la durabilidad, reparación, reutilización y
+                            reciclaje de prendas. La moda circular reduce el desperdicio y genera nuevos modelos de
+                            negocio sostenibles a lo largo de la cadena de valor.</div>
+                    </div>
+                    <div>
+                        <div class="trend-flag lang-en">EN</div>
+                        <div class="trend-body lang-en">Design for garment durability, repair, reuse and recycling.
+                            Circular fashion reduces waste and generates new sustainable business models throughout the
+                            entire value chain.</div>
+                    </div>
+                </div>
+
+                <div class="trend-item reveal">
+                    <div class="trend-label">Acabados Innovadores<br><span
+                            style="font-size:.75rem;font-weight:400;font-style:italic;color:rgba(102,155,188,.65);">Innovative
+                            Finishes</span></div>
+                    <div>
+                        <div class="trend-flag lang-es">ES</div>
+                        <div class="trend-body lang-es">Tratamientos antimicrobianos, impermeables, ignífugos y de fácil
+                            cuidado amplían el valor funcional de las prendas y permiten entrar a mercados técnicos y
+                            especializados de alto valor.</div>
+                    </div>
+                    <div>
+                        <div class="trend-flag lang-en">EN</div>
+                        <div class="trend-body lang-en">Antimicrobial, waterproof, flame-retardant and easy-care
+                            treatments expand the functional value of garments and enable entry into high-value
+                            technical and specialized markets.</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════
+     GALLERY
+════════════════════════════════════════════ -->
+
+    <!-- ═══════════════════════════════════
+         GALLERY — Imágenes del evento
+    ════════════════════════════════════ -->
+
+    <!-- ═══════════════════════════════════════════
+         GALLERY  — Masonry: imágenes completas
+    ════════════════════════════════════════════ -->
+    <!-- GALLERY — Grupo 1: Pasarelas & Desfiles -->
+    <section id="gallery" class="section" aria-labelledby="gallery-h">
+        <div class="section-inner">
+            <p class="eyebrow">
+                <span class="lang-es">Imágenes del evento</span>
+                <span class="lang-en">Event images</span>
+            </p>
+
+            <h2 class="section-h" id="gallery-h">
+                <span class="lang-es">Galería Multimedia</span>
+                <span class="lang-en">Multimedia Gallery</span>
+            </h2>
+
+            <div class="rule"></div>
+
+            <!-- Grupo 1: Pasarelas & Desfiles -->
+            <div class="gallery-group reveal" id="g-pasarelas">
+                <div class="gallery-group-label lang-es">Pasarelas &amp; Desfiles</div>
+                <div class="gallery-group-label lang-en">Runways &amp; Fashion Shows</div>
+
+                <div class="masonry-grid">
+                    <div class="m-item">
+                        <img src="images/pasarela-hombres.jpg" alt="Pabellón 5 – Entre Telas y Saberes CREATEX 2026">
+                        <div class="m-caption">
+                            <span class="lang-es">Pabellón 5 · Entre Telas y Saberes</span>
+                            <span class="lang-en">Pavilion 5 · Between Fabrics &amp; Knowledge</span>
+                        </div>
+
+                    </div>
+
+                    <div class="m-item">
+                        <img src="images/pasarela-mujeres.jpg" alt="Desfile Coleccion de Modas SENA CMTC - CREATEX">
+                        <div class="m-caption">
+                            <span class="lang-es">Desfile Coleccion de Modas SENA CMTC - CREATEX</span>
+                            <span class="lang-en">SENA CMTC Fashion Collection Runway Show - CREATEX</span>
+                        </div>
+                    </div>
+
+                    <div class="m-item">
+                        <img src="images/pasarela.jpg" alt="Ecosistema SENA CMTC MODA - Pasarela">
+                        <div class="m-caption">
+                            <span class="lang-es">Ecosistema SENA CMTC MODA - Pasarela</span>
+                            <span class="lang-en">Fashion Ecosystem SENA CMTC · Runway</span>
+                        </div>
+                    </div>
+
+
+                    <div class="m-item">
+                        <img src="images/colorprint.jpg" alt="Colorprint · Pasarela">
+                        <div class="m-caption">
+                            <span class="lang-es">Desfile Coleccion de Modas SENA CMTC - CREATEX</span>
+                            <span class="lang-en">SENA CMTC Fashion Collection Runway Show - CREATEX</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grupo 2: Maquinaria e Innovación -->
+            <div class="gallery-group reveal" id="g-maquinaria">
+                <div class="gallery-group-label lang-es">Maquinaria e Innovación</div>
+                <div class="gallery-group-label lang-en">Machinery &amp; Innovation</div>
+
+
+                <div class="masonry-grid">
+                    <div class="m-item m-video">
+                        <video controls playsinline preload="metadata" poster="images/pasarela-hombres.jpg">
+                            <source src="images/createx-video.mp4" type="video/mp4">
+                        </video>
+                        <div class="m-caption">
+                            <span class="lang-es">Video Ambiente CREATEX 2026</span>
+                            <span class="lang-en">CREATEX 2026 Event Video</span>
+                        </div>
+                    </div>
+
+                    <div class="m-item">
+                        <img src="images/gorras.jpg" alt="Bordadora Multi-Cabezal · Urban">
+                        <div class="m-caption">
+                            <span class="lang-es">Bordadora Multi-Cabezal · Urban</span>
+                            <span class="lang-en">Multi-Head Embroidery Machine · Urban</span>
+                        </div>
+                    </div>
+
+                    <div class="m-item">
+                        <img src="images/maquina-dilwi.jpg" alt="Maquinaria DILWI · Bordado Digital">
+                        <div class="m-caption">
+                            <span class="lang-es">Maquinaria DILWI · Bordado Digital</span>
+                            <span class="lang-en">DILWI Machinery · Digital Embroidery</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Grupo 3: Stands y Muestra Comercial -->
+        <div class="gallery-group reveal" id="g-stands">
+            <div class="gallery-group-label lang-es">Stands y Muestra Comercial</div>
+            <div class="gallery-group-label lang-en">Stands &amp; Commercial Exhibition</div>
+
+            <div class="masonry-grid">
+                <div class="m-item">
+                    <img src="images/stands.jpg" alt="Panorámica stands CREATEX Corferias">
+                    <div class="m-caption">
+                        <span class="lang-es">Muestra Comercial · Panorámica</span>
+                        <span class="lang-en">Commercial Exhibition · Overview</span>
+                    </div>
+                </div>
+
+                <div class="m-item">
+                    <img src="images/banomo.jpg" alt="Stand Banomo Secretaría Desarrollo Económico">
+                    <div class="m-caption">
+                        <span class="lang-es">Stand Banomo · Sec. Desarrollo Económico</span>
+                        <span class="lang-en">Banomo Stand · Economic Development</span>
+                    </div>
+                </div>
+
+                <div class="m-item">
+                    <img src="images/dual-kids.jpg" alt="Stand Dual Kids CREATEX 2026">
+                    <div class="m-caption">
+                        <span class="lang-es">Stand Dual Kids · San Victorino</span>
+                        <span class="lang-en">Dual Kids Stand · San Victorino</span>
+                    </div>
+                </div>
+
+                <div class="m-item">
+                    <img src="images/gorras_new.jpg" alt="Bordados en Gorras · Urban Embroidery">
+                    <div class="m-caption">
+                        <span class="lang-es">Bordados en Gorras · Urban Embroidery</span>
+                        <span class="lang-en">Embroidered Caps · Urban Embroidery</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Grupo 4: Insumos, Técnicas y Avíos -->
+        <div class="gallery-group reveal" id="g-insumos">
+            <div class="gallery-group-label lang-es">Insumos, Técnicas y Avíos</div>
+            <div class="gallery-group-label lang-en">Inputs, Techniques &amp; Trimmings</div>
+
+            <div class="masonry-grid">
+                <div class="m-item">
+                    <img src="images/maquina-dilwi.jpg" alt="Técnica de Serigrafía · Muestra de Insumos">
+                    <div class="m-caption">
+                        <span class="lang-es">Técnica de Serigrafía · Muestra de Insumos</span>
+                        <span class="lang-en">Screen Printing Technique · Input Showcase</span>
+                    </div>
+                </div>
+
+                <div class="m-item">
+                    <img src="images/pabellon-5.jpg" alt="Accesorios y Avíos · Insumos Confección">
+                    <div class="m-caption">
+                        <span class="lang-es">Accesorios y Avíos · Insumos Confección</span>
+                        <span class="lang-en">Accessories &amp; Trimmings · Garment Inputs</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+
+
+    <section id="glossary" class="section" aria-labelledby="glos-h" style="background:#fff;">
+        <div class="section-inner">
+            <p class="eyebrow">Vocabulary / Vocabulario</p>
+            <h2 class="section-h" id="glos-h">Technical Glossary / Glosario Técnico</h2>
+            <div class="rule"></div>
+            <p style="font-size:.88rem;color:rgba(0,48,73,.65);margin-bottom:.5rem;">
+                <span class="lang-es">35 términos técnicos clave del sector textil y de confección aprendidos en CREATEX
+                    2026.</span>
+                <span class="lang-en">35 key technical terms from the textile and garment sector learned at CREATEX
+                    2026.</span>
+            </p>
+
+            <div class="glossary-bar">
+                <input class="glossary-input" id="gsearch" type="search" placeholder="Search term / Buscar término…"
+                    oninput="filterGlossary()" aria-label="Search glossary">
+                <span class="glossary-count" id="gcount">35 terms</span>
+            </div>
+
+            <table class="gtable" id="gtable" aria-label="Technical glossary">
+                <thead>
+                    <tr>
+                        <th>Term (EN)</th>
+                        <th>Traducción (ES)</th>
+                        <th>Definition / Definición</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="ten">Textile</td>
+                        <td class="tes">Textil</td>
+                        <td class="tdf">Any material made of interlacing fibers, including woven, knitted or nonwoven
+                            fabrics. / Todo material elaborado con fibras entrelazadas, tejidas o unidas.</td>
+                    </tr>
+                    <tr>
+                        <td class="ten">Fiber</td>
+                        <td class="tes">Fibra</td>
+                        <td class="tdf">The basic unit of a textile material; can be natural (cotton, wool, silk) or
+                            synthetic (polyester, nylon). / Unidad básica del material textil: natural o sintética.</td>
+                    </tr>
+                    <tr>
+                        <td class="ten">Yarn</td>
+                        <td class="tes">Hilo / Hilado</td>
+                        <td class="tdf">A continuous strand of twisted fibers used in weaving, knitting or sewing. /
+                            Hebra continua de fibras torsionadas usada en tejido o costura.</td>
+                    </tr>
+                    <tr>
+                        <td class="ten">Fabric</td>
+                        <td class="tes">Tela / Tejido</td>
+                        <td class="tdf">A cloth produced by weaving, knitting or bonding fibers. / Paño producido por
+                            tejido o unión de fibras textiles.</td>
+                    </tr>
+                    <tr>
+                        <td class="ten">Warp</td>
+                        <td class="tes">Urdimbre</td>
+                        <td class="tdf">The set of vertical threads held fixed in a loom during weaving. / Conjunto de
+                            hilos verticales fijos en el telar durante el tejido.</td>
+                    </tr>
+                    <tr>
+                        <td class="ten">Weft</td>
+                        <td class="tes">Trama</td>
+                        <td class="tdf">The horizontal threads woven across the warp to create fabric. / Hilos
+                            horizontales entretejidos con la urdimbre para formar la tela.</td>
+                    </tr>
+                    <tr>
+                        <td class="ten">Loom</td>
+                        <td class="tes">Telar</td>
+                        <td class="tdf">A device used to weave cloth by interlacing warp and weft threads. / Dispositivo
+                            para tejer tela entrelazando urdimbre y trama.</td>
+                    </tr>
+                    <tr>
+                        <td class="ten">Dyeing</td>
+                        <td class="tes">Teñido</td>
+                        <td class="tdf">The process of adding color to textile products using dye substances. / Proceso
+                            de añadir color a productos textiles mediante tintes químicos o naturales.</td>
+                    </tr>
+                    <tr>
+                        <td class="ten">Finishing</td>
+                        <td class="tes">Acabado</td>
+                        <td class="tdf">Treatments applied to fabric after production to improve appearance, texture or
+                            performance. / Tratamientos aplicados a la tela para mejorar apariencia, tacto o función.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ten">Pattern Making</td>
+                        <td class="tes">Patronaje</td>
+                        <td class="tdf">The craft of creating templates for cutting fabric pieces to construct a
+                            garment. / Arte de crear moldes para cortar tela y construir prendas con precisión.</td>
+                    </tr>
+                    <tr>
+                        <td class="ten">Garment</td>
+                        <td class="tes">Prenda de Vestir</td>
+                        <td class="tdf">A finished clothing item ready for use or sale. / Artículo de ropa terminado,
+                            listo para su uso o comercialización.</td>
+                    </tr>
+                    <tr>
+                        <td class="ten">Supply Chain</td>
+                        <td class="tes">Cadena de Suministro</td>
+                        <td class="tdf">The network of producers, suppliers and distributors involved in making and
+                            delivering a product. / Red de productores, proveedores y distribuidores de un producto.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ten">Circular Economy</td>
+                        <td class="tes">Economía Circular</td>
+                        <td class="tdf">An economic model that eliminates waste by reusing, repairing and recycling
+                            materials continuously. / Modelo económico que elimina residuos reutilizando y reciclando
+                            materiales.</td>
+                    </tr>
+                    <tr>
+                        <td class="ten">Sustainable Fashion</td>
+                        <td class="tes">Moda Sostenible</td>
+                        <td class="tdf">An approach to fashion design and production that minimizes environmental and
+                            social harm. / Enfoque que minimiza el impacto ambiental y social de la producción de moda.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ten">Smart Textiles</td>
+                        <td class="tes">Textiles Inteligentes</td>
+                        <td class="tdf">Fabrics with embedded technologies that can sense, react or adapt to external
+                            stimuli. / Telas con tecnologías embebidas que perciben y reaccionan a estímulos del
+                            entorno.</td>
+                    </tr>
+                    <tr>
+                        <td class="ten">Upcycling</td>
+                        <td class="tes">Reutilización Creativa</td>
+                        <td class="tdf">Converting waste materials into new materials or products of higher quality or
+                            value. / Convertir materiales de desecho en productos de mayor calidad o valor.</td>
+                    </tr>
+                    <tr>
+                        <td class="ten">Deadstock</td>
+                        <td class="tes">Stock Muerto / Tela Sobrante</td>
+                        <td class="tdf">Unsold or unused fabric inventory from manufacturers or retailers. / Inventario
+                            de telas no vendidas o sin usar por fabricantes o comerciantes.</td>
+                    </tr>
+                    <tr>
+                        <td class="ten">Traceability</td>
+                        <td class="tes">Trazabilidad</td>
+                        <td class="tdf">The ability to track each stage of a product's journey from raw material to
+                            finished good. / Capacidad de rastrear cada etapa del producto desde la materia prima hasta
+                            el consumidor.</td>
+                    </tr>
+                    <tr>
+                        <td class="ten">Sourcing</td>
+                        <td class="tes">Abastecimiento</td>
+                        <td class="tdf">The process of identifying and obtaining raw materials or finished goods from
+                            suppliers. / Proceso de identificar y obtener materiales o productos de proveedores
+                            seleccionados.</td>
+                    </tr>
+                    <tr>
+                        <td class="ten">Digital Printing</td>
+                        <td class="tes">Impresión Digital</td>
+                        <td class="tdf">A method of applying color and patterns to fabric using digitally controlled
+                            inkjet systems. / Método de aplicar color y diseños a tela mediante sistemas de inyección
+                            digital.</td>
+                    </tr>
+                    <tr>
+                        <td class="ten">CAD</td>
+                        <td class="tes">Diseño Asistido por Computadora</td>
+                        <td class="tdf">Computer-Aided Design — software used to create precise textile patterns and
+                            garment constructions. / Software para crear patrones textiles y construcciones de prendas
+                            con precisión digital.</td>
+                    </tr>
+                    <tr>
+                        <td class="ten">Embroidery</td>
+                        <td class="tes">Bordado</td>
+                        <td class="tdf">The art of decorating fabric with needle and thread, executed by hand or
+                            machine. / Arte de decorar tela con aguja e hilo, a mano o con maquinaria especializada.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ten">Seam</td>
+                        <td class="tes">Costura</td>
+                        <td class="tdf">A line of stitching that joins two or more pieces of fabric together
+                            structurally. / Línea de puntadas que une dos o más piezas de tela de forma estructural.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ten">Lining</td>
+                        <td class="tes">Forro</td>
+                        <td class="tdf">A layer of fabric attached to the inside of a garment to improve comfort and
+                            structure. / Capa de tela en el interior de una prenda que mejora la comodidad y la
+                            estructura.</td>
+                    </tr>
+                    <tr>
+                        <td class="ten">Hem</td>
+                        <td class="tes">Dobladillo</td>
+                        <td class="tdf">A finished edge of a garment made by folding and stitching the fabric back on
+                            itself. / Borde terminado de una prenda formado doblando y cosiendo la tela sobre sí misma.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ten">Trimming</td>
+                        <td class="tes">Avío</td>
+                        <td class="tdf">Accessories and supplementary materials used in garment construction: buttons,
+                            labels, zippers, tapes. / Accesorios y materiales complementarios en la confección: botones,
+                            etiquetas, cierres, cintas.</td>
+                    </tr>
+                    <tr>
+                        <td class="ten">Full Package</td>
+                        <td class="tes">Paquete Completo</td>
+                        <td class="tdf">A manufacturing model where a single supplier provides all services from
+                            sourcing to finished garment. / Modelo donde un proveedor ofrece todos los servicios, desde
+                            materiales hasta prenda terminada.</td>
+                    </tr>
+                    <tr>
+                        <td class="ten">Fast Fashion</td>
+                        <td class="tes">Moda Rápida</td>
+                        <td class="tdf">A high-speed, high-volume production model that replicates current trends at low
+                            cost. / Modelo de producción masiva y veloz que replica tendencias a bajo costo y corta
+                            durabilidad.</td>
+                    </tr>
+                    <tr>
+                        <td class="ten">Slow Fashion</td>
+                        <td class="tes">Moda Lenta</td>
+                        <td class="tdf">A movement advocating for slower production cycles, ethical supply chains and
+                            quality over quantity. / Movimiento que promueve ciclos lentos, cadenas éticas y calidad
+                            sobre cantidad en moda.</td>
+                    </tr>
+                    <tr>
+                        <td class="ten">GOTS</td>
+                        <td class="tes">Estándar Textil Orgánico Global</td>
+                        <td class="tdf">Global Organic Textile Standard — the world's leading standard for organic fiber
+                            processing. / Estándar líder mundial para el procesamiento de fibras orgánicas con criterios
+                            ambientales y sociales.</td>
+                    </tr>
+                    <tr>
+                        <td class="ten">Mercerization</td>
+                        <td class="tes">Mercerización</td>
+                        <td class="tdf">A chemical treatment for cotton that increases luster, tensile strength and dye
+                            affinity. / Tratamiento químico del algodón que aumenta brillo, resistencia y afinidad al
+                            tinte.</td>
+                    </tr>
+                    <tr>
+                        <td class="ten">Knitting</td>
+                        <td class="tes">Tejido de Punto</td>
+                        <td class="tdf">A fabric-making method using interlocking loops of yarn, creating stretch and
+                            flexibility. / Método de fabricar tela usando lazos entrelazados de hilo, que otorga
+                            elasticidad y flexibilidad.</td>
+                    </tr>
+                    <tr>
+                        <td class="ten">Biodegradable</td>
+                        <td class="tes">Biodegradable</td>
+                        <td class="tdf">Materials that decompose naturally through microbial action, reducing long-term
+                            environmental impact. / Materiales que se descomponen naturalmente por acción microbiana,
+                            reduciendo el impacto ambiental.</td>
+                    </tr>
+                    <tr>
+                        <td class="ten">Nonwoven</td>
+                        <td class="tes">No Tejido / Tela Sin Tejer</td>
+                        <td class="tdf">A fabric made by bonding or felting fibers together without weaving or knitting.
+                            / Tela elaborada uniendo o fieltrado fibras sin proceso de tejido convencional.</td>
+                    </tr>
+                    <tr>
+                        <td class="ten">Mercado Vertical</td>
+                        <td class="tes">Vertical Market</td>
+                        <td class="tdf">A market that serves a specific industry's needs exclusively, such as technical
+                            protective textiles. / Mercado que atiende exclusivamente las necesidades de una industria
+                            específica, como textiles técnicos.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════
+     CONCLUSION / REFLEXIÓN
+════════════════════════════════════════════ -->
+    <section id="conclusion" class="section" aria-labelledby="conc-h">
+        <div class="section-inner">
+            <p class="eyebrow light">
+                <span class="lang-es">Reflexión final del estudiante</span>
+                <span class="lang-en">Student's final reflection</span>
+            </p>
+            <h2 class="section-h light" id="conc-h">
+                <span class="lang-es">Conclusión</span>
+                <span class="lang-en">Conclusion</span>
+            </h2>
+            <div class="rule"></div>
+
+            <div class="conc-grid">
+                <!-- ES -->
+                <div class="conc-block reveal">
+                    <div class="conc-flag">🇨🇴 Español</div>
+                    <div class="conc-body">
+                        <p>CREATEX 2026 representa mucho más que una feria comercial: es el espejo de una industria
+                            textil en plena transformación. En un mundo donde el consumidor exige transparencia y
+                            responsabilidad, los modelos de producción lineal están siendo reemplazados por cadenas
+                            productivas circulares, y las empresas que no integren la sostenibilidad como eje
+                            estratégico quedarán relegadas.</p>
+                        <p>La moda circular, los textiles inteligentes y la digitalización no son tendencias pasajeras:
+                            son la nueva infraestructura del sector. Asistir a CREATEX es comprender que la innovación
+                            no ocurre en laboratorios aislados, sino en el cruce entre la fibra, la máquina, el
+                            diseñador y el mercado. Es en ese cruce donde se construye la ventaja competitiva de la
+                            industria colombiana.</p>
+                        <p>Como futuro profesional del sector, CREATEX me enseña que la formación técnica debe dialogar
+                            permanentemente con la realidad del sector. La sostenibilidad es una oportunidad comercial,
+                            no solo una responsabilidad ética. La tecnología textil es una herramienta de
+                            diferenciación, y las redes de relacionamiento construidas en espacios como este son el
+                            capital más valioso de la cadena de confección de Colombia y la región.</p>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">Moda Circular</span>
+                        <span class="tag">Textiles Inteligentes</span>
+                        <span class="tag">Digitalización</span>
+                        <span class="tag">Sostenibilidad</span>
+                        <span class="tag">Innovación</span>
+                        <span class="tag">Oportunidades Comerciales</span>
+                    </div>
+                </div>
+                <!-- EN -->
+                <div class="conc-block reveal">
+                    <div class="conc-flag">🇺🇸 English</div>
+                    <div class="conc-body">
+                        <p>CREATEX 2026 represents far more than a trade fair: it is the mirror of a textile industry in
+                            full transformation. In a world where consumers demand transparency and accountability,
+                            linear production models are being replaced by circular supply chains, and companies that
+                            fail to embed sustainability as a strategic pillar will inevitably fall behind.</p>
+                        <p>Circular fashion, smart textiles and digitalization are not passing trends — they are the new
+                            infrastructure of the sector. Attending CREATEX means understanding that innovation does not
+                            occur in isolated laboratories, but at the intersection of fiber, machinery, design and the
+                            market. It is at that intersection where Colombia's competitive industrial advantage is
+                            built.</p>
+                        <p>As a future industry professional, CREATEX teaches me that technical training must maintain a
+                            permanent dialogue with the reality of the sector. Sustainability is a commercial
+                            opportunity, not merely an ethical responsibility. Textile technology is a tool for
+                            differentiation, and the networks built in spaces like this one represent the most valuable
+                            capital in Colombia's garment production chain and the wider region.</p>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">Circular Fashion</span>
+                        <span class="tag">Smart Textiles</span>
+                        <span class="tag">Digitalization</span>
+                        <span class="tag">Sustainability</span>
+                        <span class="tag">Innovation</span>
+                        <span class="tag">Commercial Opportunities</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════
+     FOOTER
+════════════════════════════════════════════ -->
+    <footer>
+        <div class="footer-logo">CREATE<span>X</span> 2026</div>
+        <div class="footer-sub">Salón de la Industria Textil para la Confección · Bogotá, Colombia</div>
+        <div class="footer-hr"></div>
+        <div class="footer-links">
+            <a href="#hero">Inicio / Home</a>
+            <a href="#about">¿Qué es? / About</a>
+            <a href="#components">Componentes / Components</a>
+            <a href="#pavilions">Pabellones / Pavilions</a>
+            <a href="#trends">Tendencias / Trends</a>
+            <a href="#gallery">Galería / Gallery</a>
+            <a href="#glossary">Glossary</a>
+            <a href="#conclusion">Reflexión / Reflection</a>
+            <a href="https://www.saloncreatex.com" target="_blank" rel="noopener">saloncreatex.com ↗</a>
+        </div>
+        <p class="footer-note">Actividad Académica 3 · Sitio Web Informativo Bilingüe · HTML5 · CSS3 · JavaScript</p>
+    </footer>
+
+
+    <!-- ═══════════════════════════════════════════
+     JAVASCRIPT
+════════════════════════════════════════════ -->
+    <!-- ✅ JS externo -->
+    <script src="js/mainCreatex.js"></script>
+</body>
+
+</html>
+
+<script src="js/mainCreatex.js"></script>
+</body>
+
+</html>
